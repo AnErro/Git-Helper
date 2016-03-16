@@ -48,8 +48,8 @@ Note form of the Learn Some Git Nitwits presentation.
    - It will take what your **[branch]** looks like and push it to be [branch] on the remote, if possible. If someone else has pushed since you last fetched and merged, the Git server will deny your push until you are up to date.
 
 ##OH NO, Someone pushed changes to the master branch and now you can’t merge your branch with the master branch!
-     Steps to over come this tragedy
 
+Steps to over come this tragedy
 - remain calm
 - **git fetch [alias]** : This just gets all changes to [alias]  (keep in mind this can be a remote repo too)
 - **git merge [alias] / [branch]** : The slash is needed, example is git merge upstream/master  would sync up your fork (master) and the OG repo [alias]
